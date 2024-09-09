@@ -38,7 +38,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
 - Setelah perintah tersebut berhasil, silahkan membuka repository hasil fork kalian di github dan lakukan pull request ke repository ini. 
 - Apabila terdapat kesulitan, silahkan menghubungi asistennya. Dapat melalui grup WA yang telah disediakan ataupun PC langsung ke asisten
 
-## Opsional!!
+## Opsional
 Untuk menjalin silaturahmi, silahkan follow medsos asisten :+1:
 
 - [Instagram](https://www.instagram.com/salim.mlana/)
