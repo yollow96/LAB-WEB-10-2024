@@ -32,6 +32,7 @@ _Untuk perintah yang dibungkus < > maka perintah tersebut diganti sesuai instruk
 
   Note:
   Pesan commit yang dibuat diharapkan menggunakan conventional commit, agar mempermudah dokumentasi code kalian di masa mendatang.
+
   [Dokumentasi Conventional Commit](https://www.conventionalcommits.org/en/v1.0.0/) atau kalian bisa menggunakan [extension Conventional Commit](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
   
 - Setelah perintah tersebut berhasil, silahkan membuka repository hasil fork kalian di github dan lakukan pull request ke repository ini. 
