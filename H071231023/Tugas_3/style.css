@@ -1,0 +1,269 @@
+/* Reset some defaults */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff0000;
+    padding: 40px 0;
+}
+
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff0000;
+    font-family: 'Playfair Display', serif;
+}
+
+header p {
+    font-size: 1.25rem;
+    color: #ef0000;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 4px 6px rgba(255, 1, 1, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0000;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .nav-link {
+    color: #ff0000;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-toggler {
+    border-color: red;
+    /* Changes the border of the toggler button to red */
+}
+
+.navbar .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('assets/img/logofest2.jpg.avif');
+    /* Add your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: rgb(255, 17, 17);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #f70808;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 18, 18, 0.8);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #f70808;
+    font-family: 'Playfair Display', serif;
+    color: #0d0505;
+    font-size: 1.25rem;
+    border: 2px solid #f70808;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 0px 20px 10px rgba(255, 0, 0, 0.6);
+}
+
+.hero .btn:hover {
+    background-color: #700303;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.8);
+}
+
+.hero .btn:focus {
+    outline: none;
+}
+
+
+
+/* About Section */
+
+#about {
+    background-color: #f70808;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* LineUp */
+#lineup h3 {
+    font-family: 'Playfair Display', serif;
+    color: #ee0000;
+}
+
+#lineup h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ee0000;
+}
+
+
+/* Features Section */
+
+#features .feature-box {
+    background-color: #b3b3b3;
+    padding: 50px 0;
+}
+
+#features .feature-box {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#features h3 {
+    color: red;
+    font-family: 'Playfair Display', serif;
+}
+
+#features h2 {
+    color: red;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+
+#features .feature-box h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ef0808;
+}
+
+#features .feature-box h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ef0808;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #f70808;
+}
+
+#testimonials h2 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#testimonials blockquote {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+#testimonials blockquote footer {
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+
+}
+
+#contact button {
+    background-color: #f70808;
+    font-family: 'Playfair Display', serif;
+    color: #0d0505;
+    font-size: 1.25rem;
+    border: 2px solid #f70808;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0px 0px 20px 10px rgba(0, 255, 0, 0.6);
+}
+
+#contact button:hover {
+    background-color: #700303;
+    box-shadow: 0px 0px 20px 10px rgba(255, 0, 0, 0.8);
+}
+
+#contact button:focus {
+    outline: none;
+}
+
+
+/* Footer */
+
+footer .social-links a {
+    color: #fb0000;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+footer .social-links a:hover {
+    color: #f10000;
+    font-family: 'Playfair Display', serif;
+}
+
+footer .legal p {
+    margin-top: 10px;
+    font-size: 0.875rem;
+    color: #ee0808;
+    font-family: 'Playfair Display', serif;
+}
+
+footer p {
+    text-decoration: none;
+    color: #ff0000;
+    font-family: 'Playfair Display', serif;
+}
