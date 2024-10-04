@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function countEvenNumbers(start, end) {
+            let angkagenap = [];
+            let count = 0;
+            for (let i = start; i <= end; i++) {
+                if (i % 2 === 0) {
+                    count++;
+                    angkagenap.push(i);
+                }
+            } 
+            return count, angkagenap;
+        }
+
+        console.log(countEvenNumbers(1, 10)); // Output: 5 (2, 4, 6, 8, 10)
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function hitungHargaSetelahDiskon(harga, jenisBarang) {
+            let diskon = 0;
+
+            if (jenisBarang.toLowerCase() === 'elektronik') {
+                diskon = 10;
+            } else if (jenisBarang.toLowerCase() === 'pakaian') {
+                diskon = 20;
+            } else if (jenisBarang.toLowerCase() === 'makanan') {
+                diskon = 5;
+            }
+            hargaBarang = parseInt(harga);
+            diskon = parseInt(diskon);
+
+            let hargaDiskon = harga - (harga * diskon / 100);
+
+            console.log(`Harga awal: Rp${harga}`);
+            console.log(`Diskon: ${diskon}%`);
+            console.log(`Harga setelah diskon: Rp${hargaDiskon}`);
+        }
+
+        let hargaBarang = prompt("Harga Barang :");
+        let jenisBarang = prompt("jenis barang :");
+        jenisBarang.toLowerCase();
+
+        hitungHargaSetelahDiskon(hargaBarang, jenisBarang);
+    </script>
+
+</body>
+
+</html>

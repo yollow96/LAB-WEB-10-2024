@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function permainanTebakAngka() {
+            let angkaTebakan = Math.floor(Math.random() * 100) + 1;
+            let tebakan;
+            let jumlahPercobaan = 0;
+
+            while (tebakan !== angkaTebakan) {
+                tebakan = parseInt(prompt("Masukkan salah satu dari angka 1 sampai 100: "));
+                jumlahPercobaan++;
+                if (tebakan > angkaTebakan) {
+                    console.log("Terlalu tinggi! Coba lagi.");
+                } else if (tebakan < angkaTebakan) {
+                    console.log("Terlalu rendah! Coba lagi.");
+                } else {
+                    console.log(`Selamat! Kamu berhasil menebak angka ${angkaTebakan} dengan benar.`);
+                    console.log(`Sebanyak ${jumlahPercobaan}x percobaan.`);
+                }
+            }
+        }
+
+        permainanTebakAngka();
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function hariMendatang(hariIni, jumlahHari) {
+            const hari = ['senin', 'selasa', 'rabu', 'kamis', 'jumat', 'sabtu', 'minggu'];
+            let indexHariIni = hari.indexOf(hariIni);
+            if (indexHariIni === -1) {
+                return "Hari tidak valid!";
+            }
+            let indexHariMendatang = (indexHariIni + jumlahHari) % 7;
+            return hari[indexHariMendatang];
+        }
+        let hariIni = prompt("Pilih hari: ");
+        hariIni.toLowerCase();
+        let jumlahHari = prompt("jumlah Hari: ");
+        console.log(`${jumlahHari} hari setelah ${hariIni} adalah ${hariMendatang(hariIni, jumlahHari)}`);
+    </script>
+    
+</body>
+</html>
